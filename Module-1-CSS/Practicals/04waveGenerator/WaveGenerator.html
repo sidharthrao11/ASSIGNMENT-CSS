@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wave generator</title>
+    <style>
+        body{
+            background-image: url(../04waveGenerator/img/backg.jpg) ;
+            background-repeat: no-repeat;
+            background-size:cover ;
+            position: relative;
+            
+           
+        }
+    .COP-1{
+    width: 79px;
+    height: 1px;
+    background-color:white;
+    border: 1px solid #f1ebe7;
+    list-style-type: none;
+}
+.DOT{
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #e74c3c;
+    list-style-type: none;
+}
+.COP-2{
+    height: 1px;
+    background-color: white;
+    border: 1px solid #f1ebe7;
+    width: 79px;
+    list-style-type: none;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    margin-top: 120px;
+}
+.wave{
+    position: absolute;
+   margin-top: 178px;
+   opacity: 15%;
+   width: 100%;
+   size: 100%;
+}
+.pic1{
+    border: 2px solid orangered;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 280px;
+    margin-left: 370px;
+}
+.pic2{
+    border: 2px solid orangered;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 238px;
+    margin-left: 570px;
+}
+.pic3{
+    border: 2px solid orangered;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 225px;
+    margin-left: 750px;
+}
+.pic4{
+    border: 2px solid orangered;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-left: 930px;
+}
+.pic5{
+    border: 2px solid orangered;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 267px;
+    margin-left:  1100px;;
+}
+h4{
+    margin-top: 350px;
+    color: red;
+    margin-left: 530px;
+}
+#pp{
+    margin-right: 321px;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="text">
+            <h1>OUR TEAM</h1>
+            <p>Meet the craziest team, Share your thoughts with them</p>
+        </div>
+        <div class="line">
+            <div class="COP-1"></div>
+            <div class="DOT"></div>
+            <div class="COP-2"></div>
+        </div>
+        <div><img class="pic1" src="../04waveGenerator/img/billgates.jpg" alt=""></div>
+        <div><img class="pic2" src="../04waveGenerator/img/markzuckerburg.jpg" alt=""></div>
+        <div><img class="pic3" src="../04waveGenerator/img/stevejobs.jpg" alt=""></div>
+        <div><img class="pic4" src="../04waveGenerator/img/sidharthh.jpg" alt=""></div>
+        <div><img class="pic5" src="../04waveGenerator/img/sundarpichai.jpg" alt=""></div>
+        
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ff5500" fill-opacity="1" d="M0,192L60,181.3C120,171,240,149,360,122.7C480,96,600,64,720,69.3C840,75,960,117,1080,112C1200,107,1320,53,1380,26.7L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+          </svg>
+          <div class="text2">
+            <h4>WEB DESIGNER</h4>
+            <p id="pp">UI/UX Designer</p>
+        </div>
+    </div>
+</body>
+</html>

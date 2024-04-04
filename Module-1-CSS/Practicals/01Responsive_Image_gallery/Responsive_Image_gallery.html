@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .photoGallary{
+            display: grid;
+           background-color: black;
+           width: 70%;
+           padding: 5px;
+           gap: 2px;
+        }
+        .pic-1{
+            grid-row: 1/2;
+            grid-column: 1/4;
+        }
+        .pic-2{
+            grid-row: 1/2;
+            grid-column: 4/5;
+        }
+        .pic-3{
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        .pic-4{
+            grid-row: 2/3;
+            grid-column: 2/4;
+        }
+        .pic-5{
+            grid-row: 2/3;
+            grid-column: 4/5;
+        }
+        .pic-6{
+            grid-row: 3/4;
+            grid-column: 1/3;
+        }
+        .pic-7{
+            grid-row: 3/4;
+            grid-column: 3/5;
+        }
+        .pic-8{
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
+        .pic-9{
+            grid-row: 4/5;
+            grid-column: 2/4;
+        }
+        .pic-10{
+            grid-row: 4/5;
+            grid-column: 4/5;
+        }
+        .pica-1{
+            height: 180px;
+            width: 801px;
+        }
+        .pica-2{
+            height: 180px;
+            width:250px;
+        }
+        .pica-3{
+            height: 180px;
+            width: 300px;
+        }
+        .pica-4{
+            height: 180px;
+            width: 500px;
+        }
+        .pica-5{
+            height: 180px;
+            width: 250px;
+        }
+        .pica-6{
+            height: 180px;
+            width: 550px;
+        }
+        .pica-7{
+            height: 180px;
+            width: 500px;
+        }
+        .pica-8{
+            height: 180px;
+            width: 296px;
+        }
+        .pica-9{
+            height: 180px;
+            width: 495px;
+        }
+        .pica-10{
+            height: 180px;
+            width: 250px;
+        }
+        .wrap{
+            display: flex;
+            flex-direction: row;
+        }
+      .list{
+        list-style-type: none;
+        text-align: center;
+        align-items: center;
+        margin-left: 120px;
+        margin-top: 50px;
+        background-color: black;
+        color: white;
+        margin-right: 50px;
+}  
+.menu{
+    background-color: black;
+}
+.shut{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.hm{
+    margin-top: 40px;
+    color: rgba(255, 0, 0, 0.94);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+ .bbc{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+ }    
+ .socialsites{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+ }   
+ .ss{
+    width: 75px;
+    color: white;
+    margin-top: 20px;
+ }
+ .anch{
+    anch
+ }
+ @media only screen and (max-width: 1502px) {
+   .photoGallary{
+        justify-content: center;
+       align-items : center;
+       display : flex;
+       flex-direction : column;
+       width: 80%;
+    }
+    .menu{
+        width: 20%;
+    }
+    .pica-1{
+        width: 400px;
+    }
+    .pica-2{
+        width: 400px;
+    }
+    .pica-3{
+        width: 400px;
+    }
+    .pica-4{
+        width: 400px;
+    }
+    .pica-5{
+        width: 400px;
+    }
+    .pica-6{
+        width: 400px;
+    }
+    .pica-7{
+        width: 400px;
+    }
+    .pica-8{
+        width: 400px;
+    }
+    .pica-9{
+        width: 400px;
+    }
+    .pica-10{
+        width: 400px;
+    }
+    
+}
+@media only screen and (max-width: 1262px){
+    .photoGallary{
+        width: 70%;
+    }
+    .menu{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 877px){
+    .photoGallary{
+        width: 60%;
+    }
+    .menu{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 820px){
+    .list{
+        list-style-type: none;
+        text-align: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 50px;
+        background-color: black;
+        color: white;
+        margin-right: 20px;
+}  
+.menu{
+    background-color: black;
+    width: 30%;
+}
+.photoGallary{
+    width: 70%;
+}
+}
+@media only screen and (max-width: 494px){
+    .photoGallary{
+        width: 50%;
+    }
+    .menu{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 310px){
+    .photoGallary{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 138px){
+    .photoGallary{
+        width: 100%;
+    }
+    .menu{
+       display: none;
+    }
+}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+    <div class="photoGallary">
+        <div class="pic-1"> <img class="pica-1" src="../01Responsive_Image_gallery/img/no.1.jfif" alt=""> </div>
+        <div class="pic-2"> <img class="pica-2" src="../01Responsive_Image_gallery/img/no.2.jfif" alt=""> </div>
+        <div class="pic-3"> <img class="pica-3" src="../01Responsive_Image_gallery/img/no.3.jfif" alt=""> </div>
+        <div class="pic-4"> <img class="pica-4" src="../01Responsive_Image_gallery/img/no.4.jfif" alt=""> </div>
+        <div class="pic-5"> <img class="pica-5" src="../01Responsive_Image_gallery/img/no.5.jfif" alt=""> </div>
+        <div class="pic-6"> <img class="pica-6" src="../01Responsive_Image_gallery/img/no.6.jfif" alt=""> </div>
+        <div class="pic-7"> <img class="pica-7" src="../01Responsive_Image_gallery/img/no.7.jfif" alt=""> </div>
+        <div class="pic-8"> <img class="pica-8" src="../01Responsive_Image_gallery/img/no.8.jfif" alt=""> </div>
+        <div class="pic-9"> <img class="pica-9" src="../01Responsive_Image_gallery/img/no.9.jfif" alt=""> </div>
+        <div class="pic-10"> <img class="pica-10" src="../01Responsive_Image_gallery/img/no.10.jfif" alt=""> </div>
+    </div>
+    <div class="menu">
+            <div class="navbar">
+                <ul class="list">
+                    <li> <a class="shut" href="">SHUTTER</a></li>
+                    <li> <a class="hm" href="">HOME</a></li>
+                    <li> <a class="bbc" href="">BIO</a></li>
+                    <li> <a class="bbc" href="">BLOG</a></li>
+                    <li> <a class="bbc" href="">CONTACT</a></li>
+                     <li> <a class="fb" href=""><img class="ss" src="../01Responsive_Image_gallery/img/fbtwitinsta-removebg-preview.png" alt=""> </a> </li>
+                </ul>
+                
+            </div>
+    </div>
+</div>
+</body>
+</html>
